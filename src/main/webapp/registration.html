@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script async src="js/registration.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="userid">userid</label>
+        <input type="text" id="userid"><br>
+        <label for="username">Name</label>
+        <input type="text" id="username"><br>
+        <label for="usertype">You are a</label>
+        <select name="" id="usertype">
+            <option value=""></option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="admin">Admin</option>
+        </select><br>
+        <label for="email">Email</label>
+        <input type="email" id="email"><br>
+        <label for="mob">Mobile No</label>
+        <input type="tel" id="mob"><br>
+        <label for="dob">Date Of Birth</label>
+        <input type="date" id="dob"><br>
+        <label for="gender">Gender</label>
+        <select name="" id="gender">
+            <option value=""></option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+        <label for="password">Password</label>
+        <input type="password" id="cpassword"><br>
+        <label for="password">Confirm Password</label>
+        <input type="password" id="password"><br>
+        <input type="submit" id="submit" onclick="registerUser()" value="Submit">
+    </div>
+</body>
+</html>

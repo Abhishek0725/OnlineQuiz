@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #f3f5f9;
+}
+.mycontainer{
+    position: relative;
+}
+.mycontainer .nav{
+    display: inline-block;
+    position:absolute;
+    left: 200px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(29, 139, 193);
+}
+.mycontainer .nav .ham{
+    padding: 20px;
+    font-size: 1.5em;
+    color: #f3f5f9;
+}
+.mycontainer .nav .user{
+    float: right;
+    
+}
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #262626;
+    overflow-x: hidden;
+    padding-top: 120px;
+  }
+  .mycontainer .sidenav  i{
+    padding: 5px;
+    width: 20px;
+    margin-right: 10px;
+}
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.box{
+    width: 640px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    top:120px;
+    position: relative;
+}  
+
+
+body {
+  background-color: #eee
+}
+label.radio span {
+  padding: 4px 0px;
+  border: 1px solid red;
+  display: inline-block;
+  color: red;
+  width: 100px;
+  text-align: center;
+  border-radius: 3px;
+  margin-top: 7px;
+  text-transform: uppercase
+}
+
+.option {
+  margin-left: 36px !important
+}
+
+.ans{
+  border-color: red;
+  background-color: red;
+  color: #fff !important;
+}
+.btn:focus {
+  outline: 0 !important;
+  box-shadow: none !important
+}
+
+.btn:active {
+  outline: 0 !important;
+  box-shadow: none !important
+}
+.show_exam{
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	
+}
